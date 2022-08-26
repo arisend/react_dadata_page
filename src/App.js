@@ -1,6 +1,6 @@
 "use strict";
 
-function LikeButton() {
+function MainComponent() {
   const [state, setState] = React.useState({
     loading: true,
     second_part_loaded: false,
@@ -143,4 +143,4 @@ function LikeButton() {
 }
 const e = React.createElement;
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(e(LikeButton));
+root.render(e(MainComponent));
